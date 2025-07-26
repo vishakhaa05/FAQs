@@ -6,8 +6,10 @@ export default function Herosection(){
       <div className="flex items-center gap-2 cursor-pointer">
         <div className='text-center mr-8 ml-8'>
             <h1 className='text-blue-900 font-bold text-4xl '>FAQ Section</h1><br/>
-           <p className='text-base font-normal font-sans mr-10 ml-10 leading-relaxed text-left mt-2'> Explore our FAQ section to find answers to commonly asked questions about our products and services. From account setup and troubleshooting to payment options, we've got you covered. Streamline your experience by browsing through our comprehensive FAQ guide.<br/>
-             If you can't find what you're looking for, feel free to contact our support team for personalized assistance.</p>
+           <p className='text-base font-normal font-sans mr-10 ml-10 leading-relaxed text-left mt-2'> Explore our FAQ section to find answers to commonly asked questions about our products and services. From account setup and troubleshooting to payment options, we./src/app/components/HeroSection.js
+9:265  Error: `&apos` can be escaped with `&apos;`, `&lsquo;`, `&#39;`, `&rsquo;`.  react/no-unescaped-entities
+info  - Need to disable some ESLint rules? Leave got you covered. Streamline your experience by browsing through our comprehensive FAQ guide.<br/>
+             If you can&apos;t find what you&apos;re looking for, feel free to contact our support team for personalized assistance.</p>
 
              <button className="bg-white mt-5 outline outline-2 outline-blue-900 text-blue-900 px-4 py-1 rounded-full hover:bg-blue-900 hover:text-white">
             Connect with us
